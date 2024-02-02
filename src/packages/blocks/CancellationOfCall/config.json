@@ -1,0 +1,65 @@
+{
+  "id": "CancellationOfCall",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CancellationOfCall",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CancellationOfCall"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CancellationOfCall": {
+        "file": "CancellationOfCall.tsx",
+        "extends": "CancellationOfCallController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CancellationOfCallController",
+            "path": "./CancellationOfCallController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CancellationOfCallController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CancellationOfCall"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CancellationOfCall": {
+        "file": "CancellationOfCall.web.tsx",
+        "extends": "CancellationOfCallController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CancellationOfCallController",
+            "path": "./CancellationOfCallController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CancellationOfCallController"
+          }
+        ]
+      }
+    }
+  }
+}

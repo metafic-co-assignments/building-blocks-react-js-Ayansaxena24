@@ -1,0 +1,52 @@
+{
+  "bds": {
+    "name": "Social Media Login",
+    "id": "social-media-account-login",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "forgot-password": {
+          "hotspots": [
+            {
+              "type": "navigation",
+              "id": "btnFacebookLogIn",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnGoogleLogIn",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnNavigate",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

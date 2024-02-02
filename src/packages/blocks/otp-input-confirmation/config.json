@@ -1,0 +1,98 @@
+{
+  "id": "otp-input-confirmation",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/otp-input-confirmation",
+  "assembler-adapters": [
+    "MobilePhoneToOTPAdapter",
+    "OtpToNewPasswordAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["OTPInputAuth"],
+    "assembler-messages": {
+      "output": {
+        "btnSubmitOTP": [
+          "MobilePhoneOTPFaliureMessage",
+          "MobilePhoneOTPLoginSuccessMessage",
+          "NewPasswordFaliureMessage",
+          "NewPasswordSuccessMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationForgotPasswordMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OTPInputAuth": {
+        "file": "OTPInputAuth.tsx",
+        "extends": "OTPInputAuthController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OTPInputAuthController",
+            "path": "./OTPInputAuthController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OTPInputAuthController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["OTPInputAuth"],
+    "assembler-messages": {
+      "output": {
+        "btnSubmitOTP": [
+          "MobilePhoneOTPFaliureMessage",
+          "MobilePhoneOTPLoginSuccessMessage",
+          "NewPasswordFaliureMessage",
+          "NewPasswordSuccessMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationForgotPasswordMessage"
+        ]
+      }
+    },
+    "input": [
+      "NavigationMobilePhoneOTPMessage",
+      "NavigationNewPasswordMessage"
+    ]
+  },
+  "assembler-dependencies": [],
+  "catalog-dependencies": [
+    "core"
+  ],
+  "assembler-devDependencies": [],
+  "merge-engine-screens": {
+    "OTPInputAuth": {
+      "file": "OTPInputAuth.tsx",
+      "extends": "OTPInputAuthController",
+      "configURL": "",
+      "validationRulesURL": "",
+      "imports": [
+        {
+          "value": "OTPInputAuthController",
+          "path": "./OTPInputAuthController"
+        },
+        {
+          "value": "{Props}",
+          "path": "./OTPInputAuthController"
+        }
+      ]
+    }
+  }
+}

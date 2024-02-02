@@ -1,0 +1,65 @@
+{
+  "id": "PointSystemhearts",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PointSystemhearts",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PointSystemhearts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PointSystemhearts": {
+        "file": "PointSystemhearts.tsx",
+        "extends": "PointSystemheartsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "PointSystemheartsController",
+            "path": "./PointSystemheartsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PointSystemheartsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PointSystemhearts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PointSystemhearts": {
+        "file": "PointSystemhearts.web.tsx",
+        "extends": "PointSystemheartsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "PointSystemheartsController",
+            "path": "./PointSystemheartsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PointSystemheartsController"
+          }
+        ]
+      }
+    }
+  }
+}

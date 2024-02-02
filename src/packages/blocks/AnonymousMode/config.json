@@ -1,0 +1,65 @@
+{
+  "id": "AnonymousMode",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AnonymousMode",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AnonymousMode"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AnonymousMode": {
+        "file": "AnonymousMode.tsx",
+        "extends": "AnonymousModeController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AnonymousModeController",
+            "path": "./AnonymousModeController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AnonymousModeController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AnonymousMode"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AnonymousMode": {
+        "file": "AnonymousMode.web.tsx",
+        "extends": "AnonymousModeController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "AnonymousModeController",
+            "path": "./AnonymousModeController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AnonymousModeController"
+          }
+        ]
+      }
+    }
+  }
+}

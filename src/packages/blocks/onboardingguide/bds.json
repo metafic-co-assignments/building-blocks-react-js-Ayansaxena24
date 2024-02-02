@@ -1,0 +1,42 @@
+{
+  "bds": {
+    "name": "onboardingguide",
+    "id": "onboardingguide",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "onboardingguide": {
+          "hotspots": [
+            {
+              "type": "navigation",
+              "id": "btnSkip",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnDone",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

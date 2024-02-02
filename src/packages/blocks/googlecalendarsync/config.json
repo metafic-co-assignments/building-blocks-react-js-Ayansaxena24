@@ -1,0 +1,72 @@
+{
+  "id": "GoogleCalendarSync",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/googlecalendarsync",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GoogleCalendarSync"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities",
+      "social-media-account-login"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GoogleCalendarSync": {
+        "file": "GoogleCalendarSync.tsx",
+        "extends": "GoogleCalendarSyncController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GoogleCalendarSyncController",
+            "path": "./GoogleCalendarSyncController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleCalendarSyncController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GoogleCalendarSync"
+    ],
+    "assembler-dependencies": [
+      "\"@fullcalendar/daygrid\": \"5.11.0\"",
+      "\"@fullcalendar/react\": \"5.11.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities",
+      "social-media-account-login"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GoogleCalendarSync": {
+        "file": "GoogleCalendarSync.web.tsx",
+        "extends": "GoogleCalendarSyncController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GoogleCalendarSyncController",
+            "path": "./GoogleCalendarSyncController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GoogleCalendarSyncController"
+          }
+        ]
+      }
+    }
+  }
+}

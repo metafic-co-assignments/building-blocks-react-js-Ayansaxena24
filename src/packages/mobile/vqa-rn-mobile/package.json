@@ -1,0 +1,24 @@
+{
+  "name": "rn_mobile_visualqa",
+  "version": "1.1.0",
+  "description": "",
+  "main": "nodeVQA.js",
+  "scripts": {
+    "start": "node mobileVQANodeJS.min.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "comment-json": "^3.0.2",
+    "exec": "^0.2.1",
+    "fs": "^0.0.1-security",
+    "image-to-base64": "^2.0.1",
+    "wait-on": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-node": "^4.0.0",
+    "istanbul": "~0.2.4",
+    "javascript-obfuscator": "^0.28.5",
+    "nyc": "^15.0.1"
+  }
+}

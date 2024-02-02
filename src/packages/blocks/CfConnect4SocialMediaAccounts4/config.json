@@ -1,0 +1,65 @@
+{
+  "id": "CfConnect4SocialMediaAccounts4",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfConnect4SocialMediaAccounts4",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfConnect4SocialMediaAccounts4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfConnect4SocialMediaAccounts4": {
+        "file": "CfConnect4SocialMediaAccounts4.tsx",
+        "extends": "CfConnect4SocialMediaAccounts4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfConnect4SocialMediaAccounts4Controller",
+            "path": "./CfConnect4SocialMediaAccounts4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfConnect4SocialMediaAccounts4Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfConnect4SocialMediaAccounts4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfConnect4SocialMediaAccounts4": {
+        "file": "CfConnect4SocialMediaAccounts4.web.tsx",
+        "extends": "CfConnect4SocialMediaAccounts4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfConnect4SocialMediaAccounts4Controller",
+            "path": "./CfConnect4SocialMediaAccounts4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfConnect4SocialMediaAccounts4Controller"
+          }
+        ]
+      }
+    }
+  }
+}

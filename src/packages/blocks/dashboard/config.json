@@ -1,0 +1,73 @@
+{
+  "id": "dashboard",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/dashboard",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashboard"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-responsive-fontsize\": \"^0.4.3\"", 
+      "\"react-native-responsive-screen\": \"^1.4.1\"",
+      "\"moment\": \"^2.29.1\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Dashboard": {
+        "file": "Dashboard.tsx",
+        "extends": "DashboardController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DashboardController",
+            "path": "./DashboardController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DashboardController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashboard"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-responsive-fontsize\": \"^0.4.3\"", 
+      "\"react-native-responsive-screen\": \"^1.4.1\"",
+      "\"moment\": \"^2.29.1\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DashboardBlock": {
+        "file": "DashboardBlock.tsx",
+        "extends": "DashboardController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DashboardController",
+            "path": "./DashboardController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DashboardController"
+          }
+        ]
+      }
+    }
+  }
+}

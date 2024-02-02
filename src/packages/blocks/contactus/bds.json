@@ -1,0 +1,58 @@
+{
+  "id": "contactus",
+  "label": "Contact Us",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "2.0.2",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [
+    {
+      "Contactus": {
+        "label": "List All Contact Us",
+        "hotspots": []
+      }
+    },
+    {
+      "AddContactus": {
+        "label": "Create New Contact Us",
+        "hotspots": [
+          {
+            "id": "btnBack",
+            "type": "navigation",
+            "label": "Back Button"
+          },
+          {
+            "id": "txtName",
+            "type": "input",
+            "label": "Commenter Name"
+          },
+          {
+            "id": "txtEmail",
+            "type": "input",
+            "label": "Commenter Name"
+          },
+          {
+            "id": "txtPhoneNumber",
+            "type": "input",
+            "label": "Commenter Phonenumber"
+          },
+          {
+            "id": "txtComments",
+            "type": "input",
+            "label": "Comments"
+          },
+          {
+            "id": "btnSubmit",
+            "type": "navigation",
+            "label": "Add Comment Button"
+          }
+        ]
+      }
+    }
+  ],
+  "web": []
+}

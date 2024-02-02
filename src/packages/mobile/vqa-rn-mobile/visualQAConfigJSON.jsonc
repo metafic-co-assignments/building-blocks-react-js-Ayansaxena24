@@ -1,0 +1,55 @@
+{
+  //TODO: Replace with Project Name
+  "project": "YLanes1", 
+  "builderTracker": {
+    "url":"https://api.tracker.engineer.ai",
+    //TODO: Replace with Tracker Project's ID
+    "id": "800",
+    //TODO: Replace with Tracker Project's KEY 
+    "token": "DAHpRJmqWVNTbhMBtlED"
+  },
+  "visualQA" : {
+    "url":"http://api.visualqa.builder.ai/json-request-buffer",
+    "sigma": 10,       //DEFAULT: 10
+    "threshold": 250,  //DEFAULT: 250
+    "token": "HNVvfR3iK68RzIJBQrmTQ2WFYkeKr5ki"
+  },
+  "mobile" : {
+    //TODO: Update with platform to test. Current options 'ios' and 'android'
+    "platforms": [
+     "iOS",
+     "Android"
+    ],
+    "podfilePath":  "../ios",
+    "projectRoot": "..",
+    "apkFile": "../android/app/build/outputs/apk/debug/app-debug.apk",
+    "appFile": "YLanes1.app",
+    "init":  {
+      //TODO: Replace with cmds to build iOS Debug APP
+      "iOS" : "cp ../../../node-runners/RCTUIImageViewAnimated.m ../../../node_modules/react-native/Libraries/Image/RCTUIImageViewAnimated.m && cd .. && xcrun simctl shutdown all && xcrun simctl erase all && npm run ios > /dev/null 2>&1 && iOSApp=$(find  ~/Library/Developer/CoreSimulator -name 'YLanes1.app') && echo $iOSApp && cp -R $iOSApp vqa-rn-mobile/YLanes1.app",
+      //TODO: Replace with cmds to build Android Debug APP
+      "Android" : "cd .. && adb kill-server && npm run android",
+      //TODO: Replace with cmds to start metro node instance
+      "metro": "cd .. && npm run start"
+    },
+    //TODO: Replace with Design Comps Base URL 
+    "designCompBaseURL": "",
+    //TODO: Replace with Design Comps Extention
+    "designImageExtention": "png",
+    //TODO: Replace with cmds to run Pixel Catcher
+    "run": "cd .. && ./node_modules/.bin/pixels-catcher",
+    //TODO: Replace Feature Name, Class Name and codePath
+    "screens": [ 
+      {
+        //TODO: Replace with Design Asset Name
+        "featureName": "HomeScreen", 
+        //TODO: Replace with Design Asset Path or URL
+        "design": 
+        {
+          "iOS": "",
+          "Android": ""
+        }
+      }
+    ] 
+  }
+}

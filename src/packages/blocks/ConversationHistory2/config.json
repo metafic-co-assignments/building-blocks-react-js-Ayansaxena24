@@ -1,0 +1,65 @@
+{
+  "id": "ConversationHistory2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ConversationHistory2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConversationHistory2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConversationHistory2": {
+        "file": "ConversationHistory2.tsx",
+        "extends": "ConversationHistory2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ConversationHistory2Controller",
+            "path": "./ConversationHistory2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConversationHistory2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConversationHistory2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConversationHistory2": {
+        "file": "ConversationHistory2.web.tsx",
+        "extends": "ConversationHistory2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ConversationHistory2Controller",
+            "path": "./ConversationHistory2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConversationHistory2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

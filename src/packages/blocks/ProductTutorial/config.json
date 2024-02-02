@@ -1,0 +1,65 @@
+{
+  "id": "ProductTutorial",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ProductTutorial",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ProductTutorial"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProductTutorial": {
+        "file": "ProductTutorial.tsx",
+        "extends": "ProductTutorialController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ProductTutorialController",
+            "path": "./ProductTutorialController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProductTutorialController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ProductTutorial"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProductTutorial": {
+        "file": "ProductTutorial.web.tsx",
+        "extends": "ProductTutorialController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ProductTutorialController",
+            "path": "./ProductTutorialController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProductTutorialController"
+          }
+        ]
+      }
+    }
+  }
+}

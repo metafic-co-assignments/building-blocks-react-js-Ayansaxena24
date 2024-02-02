@@ -1,0 +1,65 @@
+{
+  "id": "ContentManagement",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ContentManagement",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ContentManagement"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ContentManagement": {
+        "file": "ContentManagement.tsx",
+        "extends": "ContentManagementController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ContentManagementController",
+            "path": "./ContentManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContentManagementController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ContentManagement"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ContentManagement": {
+        "file": "ContentManagement.web.tsx",
+        "extends": "ContentManagementController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ContentManagementController",
+            "path": "./ContentManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContentManagementController"
+          }
+        ]
+      }
+    }
+  }
+}

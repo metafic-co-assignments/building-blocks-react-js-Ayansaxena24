@@ -1,0 +1,65 @@
+{
+  "id": "advancedsearch",
+  "verion": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/advancedsearch",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AdvancedSearch"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AdvancedSearch": {
+        "file": "AdvancedSearch.tsx",
+        "extends": "AdvancedSearchController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AdvancedSearchController",
+            "path": "./AdvancedSearchController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AdvancedSearchController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AdvancedSearch"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AdvancedSearch": {
+        "file": "AdvancedSearch.web.tsx",
+        "extends": "AdvancedSearchController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AdvancedSearchController",
+            "path": "./AdvancedSearchController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AdvancedSearchController"
+          }
+        ]
+      }
+    }
+  }
+}

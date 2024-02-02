@@ -1,0 +1,65 @@
+{
+  "id": "ReportUser",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ReportUser",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReportUser"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReportUser": {
+        "file": "ReportUser.tsx",
+        "extends": "ReportUserController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ReportUserController",
+            "path": "./ReportUserController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReportUserController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReportUser"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReportUser": {
+        "file": "ReportUser.web.tsx",
+        "extends": "ReportUserController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ReportUserController",
+            "path": "./ReportUserController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReportUserController"
+          }
+        ]
+      }
+    }
+  }
+}

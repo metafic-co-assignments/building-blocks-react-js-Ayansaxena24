@@ -1,0 +1,65 @@
+{
+  "id": "LinkShare",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LinkShare",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LinkShare"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LinkShare": {
+        "file": "LinkShare.tsx",
+        "extends": "LinkShareController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "LinkShareController",
+            "path": "./LinkShareController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LinkShareController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LinkShare"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LinkShare": {
+        "file": "LinkShare.web.tsx",
+        "extends": "LinkShareController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "LinkShareController",
+            "path": "./LinkShareController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LinkShareController"
+          }
+        ]
+      }
+    }
+  }
+}

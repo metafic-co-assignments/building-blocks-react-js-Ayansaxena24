@@ -1,0 +1,23 @@
+{
+  "name": "visualqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodeVQA.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "comment-json": "^3.0.2",
+    "exec": "^0.2.1",
+    "fs": "^0.0.1-security",
+    "image-to-base64": "^2.0.1",
+    "js-beautify": "^1.11.0",
+    "portfinder": "^1.0.26",
+    "puppeteer": "^3.0.2",
+    "puppeteer-firefox": "^0.5.1",
+    "wait-on": "^4.0.2",
+    "yargs": "^16.2.0"
+  }
+}

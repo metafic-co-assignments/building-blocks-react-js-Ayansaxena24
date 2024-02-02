@@ -1,0 +1,129 @@
+{
+  "id": "mobile-account-login",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/mobile-account-login",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MobileAccountLoginBlock"
+    ],
+    "assembler-messages": {
+      "output": {
+        "btnForgotPassword": [
+          "NavigationForgotPasswordMessage"
+        ],
+        "btnMobileLogIn": [
+          "LoginFaliureMessage",
+          "LoginSuccessMessage"
+        ],
+        "btnSocialLogin": [
+          "NavigationSocialLogInMessage"
+        ],
+        "btnEmailLogin": [
+          "NavigationEmailLogInMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationMobilePhoneLogInMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "country-code-selector",
+      "forgot-password"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MobileAccountLoginBlock": {
+        "file": "MobileAccountLoginBlock.tsx",
+        "extends": "MobileAccountLoginController",
+        "configURL": "/login/login",
+        "validationRulesURL": "api/profile/validation_settings",
+        "imports": [
+          {
+            "value": "CountryCodeSelector",
+            "path": "../../../country-code-selector/src/CountryCodeSelector"
+          },
+          {
+            "value": "CustomCheckBox",
+            "path": "../../../../components/src/CustomCheckBox"
+          },
+          {
+            "value": "MobileAccountLoginController",
+            "path": "./MobileAccountLoginController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MobileAccountLoginController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MobileAccountLoginBlock"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "country-code-selector",
+      "forgot-password"
+    ],
+    "assembler-messages": {
+      "output": {
+        "btnForgotPassword": [
+          "NavigationForgotPasswordMessage"
+        ],
+        "btnMobileLogIn": [
+          "LoginFaliureMessage",
+          "LoginSuccessMessage"
+        ],
+        "btnSocialLogin": [
+          "NavigationSocialLogInMessage"
+        ],
+        "btnEmailLogin": [
+          "NavigationEmailLogInMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationMobilePhoneLogInMessage"
+        ]
+      }
+    },
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MobileAccountLoginBlock": {
+        "file": "MobileAccountLoginBlock.tsx",
+        "extends": "MobileAccountLoginController",
+        "configURL": "/login/login",
+        "validationRulesURL": "api/profile/validation_settings",
+        "imports": [
+          {
+            "value": "CountryCodeSelector",
+            "path": "../../../country-code-selector/src/CountryCodeSelector"
+          },
+          {
+            "value": "CustomCheckBox",
+            "path": "../../../../components/src/CustomCheckBox"
+          },
+          {
+            "value": "MobileAccountLoginController",
+            "path": "./MobileAccountLoginController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MobileAccountLoginController"
+          }
+        ]
+      }
+    }
+  }
+}

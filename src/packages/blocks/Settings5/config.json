@@ -1,0 +1,65 @@
+{
+  "id": "Settings5",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Settings5",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Settings5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Settings5": {
+        "file": "Settings5.tsx",
+        "extends": "Settings5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Settings5Controller",
+            "path": "./Settings5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Settings5Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Settings5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Settings5": {
+        "file": "Settings5.web.tsx",
+        "extends": "Settings5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Settings5Controller",
+            "path": "./Settings5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Settings5Controller"
+          }
+        ]
+      }
+    }
+  }
+}

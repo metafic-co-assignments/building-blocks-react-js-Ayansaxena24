@@ -1,0 +1,2405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`categoriessubcategories User adding a empty category 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User adding a empty subcategory 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User can add a category 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User can add a subcategory 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User can add a subcategory 2`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "display": "flex",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={true}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a subcategory
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter subcategory name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#ccc",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "marginBottom": 30,
+              "marginVertical": 10,
+              "padding": 15,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 16,
+                  "marginVertical": 4,
+                  "width": "70%",
+                }
+              }
+            >
+              Choose a category
+            </Text>
+            <TouchableOpacity
+              activeOpacity={0.2}
+              onPress={[Function]}
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../packages/blocks/categoriessubcategories/assets/down.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 20,
+                    "resizeMode": "contain",
+                    "width": 20,
+                  }
+                }
+              />
+            </TouchableOpacity>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User can delete any category 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User can delete any subcategory 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User navigates to categoriessubcategories 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User navigates to categoriessubcategories 2`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <View
+    key="0"
+    style={
+      Object {
+        "borderColor": "#ccc",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "marginBottom": 30,
+        "marginVertical": 10,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginVertical": 4,
+            "width": "70%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          category_3
+        </Text>
+      </Text>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/categoriessubcategories/assets/delete.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "resizeMode": "contain",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/categoriessubcategories/assets/down.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "resizeMode": "contain",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </View>
+  </View>
+</ScrollViewMock>
+`;
+
+exports[`categoriessubcategories User navigates to categoriessubcategories 3`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 10,
+              }
+            }
+          >
+            Add a category
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Enter category name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#00000000",
+                "borderBottomWidth": 1,
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "fontSize": 16,
+                "includeFontPadding": true,
+                "marginBottom": 16,
+                "padding": 10,
+                "textAlign": "left",
+              }
+            }
+            testID="txtInputCategory"
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Add
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Category
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "backgroundColor": "blue",
+          "borderRadius": 4,
+          "display": "flex",
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "width": 150,
+        }
+      }
+      testID="btnAddFaqTxt"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Add Sub Category
+      </Text>
+    </TouchableOpacity>
+  </View>
+  <View
+    key="0"
+    style={
+      Object {
+        "borderColor": "#ccc",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "marginBottom": 30,
+        "marginVertical": 10,
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginVertical": 4,
+            "width": "70%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          category_3
+        </Text>
+      </Text>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/categoriessubcategories/assets/delete.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "resizeMode": "contain",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/categoriessubcategories/assets/down.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "resizeMode": "contain",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </View>
+  </View>
+</ScrollViewMock>
+`;

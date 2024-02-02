@@ -1,0 +1,65 @@
+{
+  "id": "YourLaneTextOrLinks",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/YourLaneTextOrLinks",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "YourLaneTextOrLinks"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "YourLaneTextOrLinks": {
+        "file": "YourLaneTextOrLinks.tsx",
+        "extends": "YourLaneTextOrLinksController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "YourLaneTextOrLinksController",
+            "path": "./YourLaneTextOrLinksController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./YourLaneTextOrLinksController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "YourLaneTextOrLinks"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "YourLaneTextOrLinks": {
+        "file": "YourLaneTextOrLinks.web.tsx",
+        "extends": "YourLaneTextOrLinksController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "YourLaneTextOrLinksController",
+            "path": "./YourLaneTextOrLinksController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./YourLaneTextOrLinksController"
+          }
+        ]
+      }
+    }
+  }
+}

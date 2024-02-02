@@ -1,0 +1,29 @@
+{
+    "extends": "../../../tsconfig.base.json",
+    "compilerOptions": {
+      "composite": true,
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "jsx": "preserve",
+      "isolatedModules": false,
+      "outDir": "dist",
+      "rootDir": "../../../packages",
+      "types": [ "node" ],
+      "typeRoots": [
+        "@types",
+        "../../node_modules/@types"
+      ]
+    },
+    "include": ["src", "../../framework/src/**/*"],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "build",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTests.ts"
+      ],
+  }
+  

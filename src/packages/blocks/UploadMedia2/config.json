@@ -1,0 +1,65 @@
+{
+  "id": "UploadMedia2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/UploadMedia2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UploadMedia2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UploadMedia2": {
+        "file": "UploadMedia2.tsx",
+        "extends": "UploadMedia2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "UploadMedia2Controller",
+            "path": "./UploadMedia2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UploadMedia2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UploadMedia2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UploadMedia2": {
+        "file": "UploadMedia2.web.tsx",
+        "extends": "UploadMedia2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "UploadMedia2Controller",
+            "path": "./UploadMedia2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UploadMedia2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

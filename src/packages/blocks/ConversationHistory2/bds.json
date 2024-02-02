@@ -1,0 +1,14 @@
+{
+  "id": "ConversationHistory2",
+  "label": "ConversationHistory2",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "2.0.0",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [],
+  "web": []
+}

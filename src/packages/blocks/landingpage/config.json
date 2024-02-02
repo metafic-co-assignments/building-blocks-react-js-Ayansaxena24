@@ -1,0 +1,65 @@
+{
+  "id": "LandingPage",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LandingPage",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LandingPage"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+        "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LandingPage": {
+        "file": "LandingPage.tsx",
+        "extends": "LandingPageController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LandingPageController",
+            "path": "./LandingPageController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LandingPageController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LandingPage"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+        "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LandingPageBlock": {
+        "file": "LandingPageBlock.tsx",
+        "extends": "LandingPageController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LandingPageController",
+            "path": "./LandingPageController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LandingPageController"
+          }
+        ]
+      }
+    }
+  }
+}

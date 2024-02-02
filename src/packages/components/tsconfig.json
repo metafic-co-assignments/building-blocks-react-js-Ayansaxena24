@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": false,
+    "outDir": "dist",
+    "rootDir": "../",
+    "typeRoots": [
+      "@types",
+      "../../node_modules/@types"
+    ]
+  },
+  "include": ["./src/**/*", "./src/**/*.json", "../framework/**/*", "../framework/blocks/**/*", "../blocks/**/*", "CustomCheckBox.tsx"]
+}

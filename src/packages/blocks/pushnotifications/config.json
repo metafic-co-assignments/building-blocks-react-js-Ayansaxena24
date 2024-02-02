@@ -1,0 +1,67 @@
+{
+  "id": "pushnotifications",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/pushnotifications",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Pushnotifications"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-responsive-screen\": \"1.4.2\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Pushnotifications": {
+        "file": "Pushnotifications.tsx",
+        "extends": "PushnotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PushnotificationsController",
+            "path": "./PushnotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PushnotificationsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Pushnotifications"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PushnotificationsBlock": {
+        "file": "PushnotificationsBlock.tsx",
+        "extends": "PushnotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PushnotificationsController",
+            "path": "./PushnotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PushnotificationsController"
+          }
+        ]
+      }
+    }
+  }
+}

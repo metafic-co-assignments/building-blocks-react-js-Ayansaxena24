@@ -1,0 +1,126 @@
+{
+  "bds": {
+    "name": "User Profile Basic",
+    "id": "user-profile-basic",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "user-profile-basic": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtInputFirstName",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputLastName",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "edit",
+              "id": "coutryCodeSelector",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputPhoneNumber",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputEmail",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "edit",
+              "id": "btnEnableEditPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputCurrentPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "edit",
+              "id": "btnPasswordShowHideButton",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputNewPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputReTypePassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            }, 
+            {
+              "type": "edit",
+              "id": "passwordShowHide",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "edit",
+              "id": "btnSubmit",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "edit",
+              "id": "btnDisableEditPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

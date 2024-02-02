@@ -1,0 +1,63 @@
+{
+  "id": "splashscreen",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/splashscreen",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Splashscreen"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Splashscreen": {
+        "file": "Splashscreen.tsx",
+        "extends": "SplashscreenController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SplashscreenController",
+            "path": "./SplashscreenController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SplashscreenController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Splashscreen"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "Splashscreen": {
+      "file": "Splashscreen.tsx",
+      "extends": "SplashscreenController",
+      "configURL": "",
+      "validationRulesURL": "",
+      "imports": [
+        {
+          "value": "SplashscreenController",
+          "path": "./SplashscreenController"
+        },
+        {
+          "value": "{Props}",
+          "path": "./SplashscreenController"
+        }
+      ]
+    }
+  }
+}

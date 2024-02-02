@@ -1,0 +1,1102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`onboardingguide User navigates to onboardingguide 1`] = `
+<Onboarding
+  DoneButtonComponent={[Function]}
+  DotComponent={[Function]}
+  NextButtonComponent={[Function]}
+  SkipButtonComponent={[Function]}
+  allowFontScalingButtons={true}
+  allowFontScalingText={true}
+  bottomBarColor="transparent"
+  bottomBarHeight={60}
+  bottomBarHighlight={true}
+  containerStyles={
+    Object {
+      "alignItems": "flex-start",
+      "justifyContent": "flex-start",
+    }
+  }
+  controlStatusBar={true}
+  imageContainerStyles={null}
+  nextLabel="Next"
+  onDone={[Function]}
+  onSkip={[Function]}
+  pageIndexCallback={null}
+  pages={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_One.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell or Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Two.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell / Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Three.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+             Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Four.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+    ]
+  }
+  showDone={true}
+  showNext={true}
+  showPagination={true}
+  showSkip={true}
+  skipLabel="Skip"
+  skipToPage={null}
+  subTitleStyles={null}
+  titleStyles={null}
+  transitionAnimationDuration={500}
+/>
+`;
+
+exports[`onboardingguide User navigates to onboardingguide 2`] = `
+<Onboarding
+  DoneButtonComponent={[Function]}
+  DotComponent={[Function]}
+  NextButtonComponent={[Function]}
+  SkipButtonComponent={[Function]}
+  allowFontScalingButtons={true}
+  allowFontScalingText={true}
+  bottomBarColor="transparent"
+  bottomBarHeight={60}
+  bottomBarHighlight={true}
+  containerStyles={
+    Object {
+      "alignItems": "flex-start",
+      "justifyContent": "flex-start",
+    }
+  }
+  controlStatusBar={true}
+  imageContainerStyles={null}
+  nextLabel="Next"
+  onDone={[Function]}
+  onSkip={[Function]}
+  pageIndexCallback={null}
+  pages={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_One.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell or Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Two.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell / Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Three.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+             Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Four.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+    ]
+  }
+  showDone={true}
+  showNext={true}
+  showPagination={true}
+  showSkip={true}
+  skipLabel="Skip"
+  skipToPage={null}
+  subTitleStyles={null}
+  titleStyles={null}
+  transitionAnimationDuration={500}
+/>
+`;
+
+exports[`onboardingguide User navigates to onboardingguide 3`] = `
+<Onboarding
+  DoneButtonComponent={[Function]}
+  DotComponent={[Function]}
+  NextButtonComponent={[Function]}
+  SkipButtonComponent={[Function]}
+  allowFontScalingButtons={true}
+  allowFontScalingText={true}
+  bottomBarColor="transparent"
+  bottomBarHeight={60}
+  bottomBarHighlight={true}
+  containerStyles={
+    Object {
+      "alignItems": "flex-start",
+      "justifyContent": "flex-start",
+    }
+  }
+  controlStatusBar={true}
+  imageContainerStyles={null}
+  nextLabel="Next"
+  onDone={[Function]}
+  onSkip={[Function]}
+  pageIndexCallback={null}
+  pages={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_One.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell or Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Two.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell / Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Three.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+             Buy products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+      Object {
+        "backgroundColor": "white",
+        "image": <SafeAreaView
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "width": "100%",
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../packages/blocks/onboardingguide/assets/Onboarding_Four.png",
+                }
+              }
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "height": 280,
+                  "marginTop": 40,
+                  "padding": 20,
+                  "width": "90%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "cornflowerblue",
+                "borderRadius": 100,
+                "bottom": -50,
+                "height": 200,
+                "position": "absolute",
+                "transform": Array [
+                  Object {
+                    "scaleX": 3,
+                  },
+                ],
+                "width": 200,
+                "zIndex": -1,
+              }
+            }
+          />
+        </SafeAreaView>,
+        "subtitle": "Done with React Native Onboarding Swiper Done with React Native Onboarding SwiperDone with React Native Onboarding SwiperDone with React Native Onboarding Swiper",
+        "title": <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "padding": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sell products
+          </Text>
+        </View>,
+        "titleStyles": Object {
+          "color": "black",
+          "fontSize": 20,
+        },
+      },
+    ]
+  }
+  showDone={true}
+  showNext={true}
+  showPagination={true}
+  showSkip={true}
+  skipLabel="Skip"
+  skipToPage={null}
+  subTitleStyles={null}
+  titleStyles={null}
+  transitionAnimationDuration={500}
+/>
+`;

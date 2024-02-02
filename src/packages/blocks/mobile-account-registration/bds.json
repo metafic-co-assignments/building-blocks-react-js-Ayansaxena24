@@ -1,0 +1,153 @@
+{
+  "bds": {
+    "name": "Mobile Phone Account Creation",
+    "id": "mobilePhoneAccountCreation",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.1",
+    "pages": [
+      {
+        "PhoneNumberInput": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtInputPhoneNumber",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "edit",
+              "id": "coutryCodeSelector",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnSendOtp",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        },
+        "OTPInputAuth": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "mobilePhoneOTP",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "submitOTP",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        },
+        "AdditionalDetailForm": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtInputFirstName",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputLastName",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputEmail",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputConfirmPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnLegalTermsAndCondition",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnLegalPrivacyPolicy",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnSignUp",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "contactus",
+  "verion": "2.0.0",
+  "status": "",
+  "path": "./packages/blocks/contactus",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contactus",
+      "AddContactus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contactus": {
+        "file": "Contactus.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      },
+      "AddContactus": {
+        "file": "AddContactus.tsx",
+        "extends": "ContactusController",
+        "ui-elements": [
+          {
+            "testID": "btnBack",
+            "props": "{...this.btnBackProps}",
+            "elementType": "TouchableOpacity"
+          },
+          {
+            "testID": "txtName",
+            "props": "{...this.txtNameProps}",
+            "elementType": "TextInput"
+          },
+          {
+            "testID": "txtEmail",
+            "props": "{...this.txtEmailProps}",
+            "elementType": "TextInput",
+            "keyboardType": "email-address"
+          },
+          {
+            "testID": "txtPhoneNumber",
+            "props": "{...this.txtPhoneNumberProps}",
+            "elementType": "TextInput",
+            "keyboardType": "phone-pad"
+          },
+          {
+            "testID": "txtComments",
+            "props": "{...this.txtCommentsProps}",
+            "elementType": "TextInput"
+          },
+          {
+            "testID": "btnSubmit",
+            "props": "{...this.btnSubmitProps}",
+            "elementType": "TouchableOpacity"
+          }
+        ],
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contactus",
+      "AddContactus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contactus": {
+        "file": "ContactusBlock.web.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      },
+      "AddContactus": {
+        "file": "AddContactus.web.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      }
+    }
+  }
+}

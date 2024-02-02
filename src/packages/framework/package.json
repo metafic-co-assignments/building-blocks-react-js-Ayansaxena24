@@ -1,0 +1,93 @@
+{
+  "name": "framework",
+  "version": "0.0.1",
+  "private": true,
+  "repository": "https://gitlab.builder.ai/builder/builder-bx/Bx/blocks/react-native/development/react-native-master-app/packages/framework.git",
+  "author": "david he <david.he@engineer.ai>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc -b --incremental",
+    "test": "jest --verbose --coverage",
+    "lint": "tsc && eslint 'src/**/*.{ts,tsx}' --fix",
+    "sonar": "yarn lint; jest --verbose --coverage; sonar-scanner"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier-eslint --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "file:../blocks/core/node_modules/@react-native-community/eslint-config",
+    "@typescript-eslint/eslint-plugin": "file:../blocks/core/node_modules/@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser": "file:../blocks/core/node_modules/@typescript-eslint/parser",
+    "babel-eslint": "file:../blocks/core/node_modules/babel-eslint",
+    "babel-jest": "file:../blocks/core/node_modules/babel-jest",
+    "enzyme-adapter-react-16": "file:../blocks/core/node_modules/enzyme-adapter-react-16",
+    "eslint": "file:../blocks/core/node_modules/eslint",
+    "eslint-config-airbnb": "file:../blocks/core/node_modules/eslint-config-airbnb",
+    "eslint-config-prettier": "file:../blocks/core/node_modules/eslint-config-prettier",
+    "eslint-config-react-app": "file:../blocks/core/node_modules/eslint-config-react-app",
+    "eslint-plugin-babel": "file:../blocks/core/node_modules/eslint-plugin-babel",
+    "eslint-plugin-eslint-comments": "file:../blocks/core/node_modules/eslint-plugin-eslint-comments",
+    "eslint-plugin-import": "file:../blocks/core/node_modules/eslint-plugin-import",
+    "eslint-plugin-jest": "file:../blocks/core/node_modules/eslint-plugin-jest",
+    "eslint-plugin-jsx-a11y": "file:../blocks/core/node_modules/eslint-plugin-jsx-a11y",
+    "eslint-plugin-react": "file:../blocks/core/node_modules/eslint-plugin-react",
+    "eslint-plugin-react-native": "file:../blocks/core/node_modules/eslint-plugin-react-native",
+    "jest-enzyme": "file:../blocks/core/node_modules/jest-enzyme",
+    "lint-staged": "file:../blocks/core/node_modules/lint-staged",
+    "prettier-eslint-cli": "file:../blocks/core/node_modules/prettier-eslint-cli",
+    "ts-jest": "file:../blocks/core/node_modules/ts-jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage-backend-legacy": "file:../blocks/core/node_modules/@react-native-community/async-storage-backend-legacy",
+    "@react-native-community/async-storage-backend-web": "file:../blocks/core/node_modules/@react-native-community/async-storage-backend-web",
+    "react": "file:../blocks/core/node_modules/react",
+    "react-native": "file:../blocks/core/node_modules/react-native"
+  },
+  "jestSonar": {
+    "reportPath": "reports",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "__tests__/tsconfig.base.json"
+      }
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/node_modules/jest-enzyme/lib/index.js"
+    ],
+    "testResultsProcessor": "jest-sonar-reporter",
+    "setupFiles": [
+      "<rootDir>/test-setup.js"
+    ],
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/",
+      "<rootDir>/coverage/"
+    ],
+    "cacheDirectory": ".jest/cache",
+    "collectCoverageFrom": [
+      "!babel.config.js",
+      "!node_modules/**/*",
+      "!build/**",
+      "!node_modules/**/**/*",
+      "!coverage/**/*"
+    ]
+  }
+}

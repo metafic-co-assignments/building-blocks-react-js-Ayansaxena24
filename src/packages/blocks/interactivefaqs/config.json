@@ -1,0 +1,91 @@
+{
+  "id": "interactivefaqs",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/interactivefaqs",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Interactivefaqs",
+      "AddInteractivefaqs"
+    ],
+    "assembler-dependencies": ["\"react-native-pell-rich-editor\": \"^1.3.0\""],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Interactivefaqs": {
+        "file": "Interactivefaqs.tsx",
+        "extends": "InteractivefaqsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InteractivefaqsController",
+            "path": "./InteractivefaqsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InteractivefaqsController"
+          },
+          {
+            "value": "{WebView}",
+            "path": "react-native-webview"
+          }
+        ]
+      },
+      "AddInteractivefaqs": {
+        "file": "AddInteractivefaqs.tsx",
+        "extends": "InteractivefaqsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InteractivefaqsController",
+            "path": "./InteractivefaqsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InteractivefaqsController"
+          },
+          {
+            "value": "{RichEditor, RichToolbar}",
+            "path": "react-native-pell-rich-editor"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Interactivefaqs",
+      "AddInteractivefaqs"
+    ],
+    "assembler-dependencies": ["\"react-native-pell-rich-editor\": \"^1.3.0\"", "\"react-rte\": \"^0.16.3\"", "\"html-react-parser\": \"^1.2.4\""],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": ["\"@types/react-rte\": \"^0.16.1\""],
+    "merge-engine-screens": {
+      "InteractivefaqsBlock": {
+        "file": "InteractivefaqsBlock.tsx",
+        "extends": "InteractivefaqsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InteractivefaqsController",
+            "path": "./InteractivefaqsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InteractivefaqsController"
+          }
+        ]
+      }
+    }
+  }
+}

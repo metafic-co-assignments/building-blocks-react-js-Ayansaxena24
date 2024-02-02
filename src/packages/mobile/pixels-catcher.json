@@ -1,0 +1,35 @@
+{
+  "android": {
+    "activityName": "MainActivity",
+    "deviceName": "Pixel_3_API_30",
+    "packageName": "com.YLanes1",
+    "snapshotsPath": "./vqa-rn-mobile/snapshots/android",
+    "dev": {
+      "deviceParams": [
+        "-no-audio",
+        "-no-snapshot"
+      ]
+    },
+    "debug": {
+      "deviceParams": [
+        "-no-audio",
+        "-no-snapshot"
+      ],
+      "appFile": "./android/app/build/outputs/apk/debug/app-debug.apk"
+    }
+  },
+  "ios": {
+    "port": 3010,
+    "deviceName": "iPhone 11",
+    "packageName": "org.reactjs.native.example.YLanes1",
+    "snapshotsPath": "./vqa-rn-mobile/snapshots/ios",
+    "dev": {},
+    "debug": {
+      "appFile": "./vqa-rn-mobile/YLanes1.app",
+      "canStopDevice": true,
+      "port": 3010
+    }
+  },
+  "logLevelel": "v",
+  "timeout": 600000
+}

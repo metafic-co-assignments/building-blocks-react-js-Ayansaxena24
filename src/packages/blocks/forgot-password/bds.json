@@ -1,0 +1,128 @@
+{
+  "bds": {
+    "name": "Forgot Password",
+    "id": "forgot-password",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "ForgotPassword": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtInputEmail",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputPhoneNumber",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+             "type": "input",
+             "id": "txtInputPhoneNumber",
+             "options": [
+               "mandatory",
+               "enabled"
+             ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnGetOtpForEmailButton",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+             "type": "navigation",
+             "id": "btnOtpForPhoneNumberButton",
+             "options": [
+               "target",
+               "navigationTransition",
+               "navigationType",
+               "enabled"
+             ]
+           }
+          ]
+        },
+        "ForgotPasswordOTP": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtMobilePhoneOTP",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnSubmitOTP",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        },
+        "NewPassword": {
+          "hotspots": [
+            {
+              "type": "input",
+              "id": "txtInputPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputConfirmPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnChangePasswordButton",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnGoToHomeButton",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

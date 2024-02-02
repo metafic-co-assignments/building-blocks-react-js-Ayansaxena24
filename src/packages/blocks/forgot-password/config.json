@@ -1,0 +1,169 @@
+{
+  "id": "forgot-password",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/forgot-password",
+  "assembler-adapters": [
+    "ForgotPasswordAdapter"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ForgotPassword",
+      "ForgotPasswordOTP",
+      "NewPassword"
+    ],
+    "assembler-messages": {
+      "output": {
+        "changePasswordButton": [
+          "ForgotPasswordFaliureMessage",
+          "ForgotPasswordSuccessMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationForgotPasswordMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "otp-input-confirmation",
+      "country-code-selector"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ForgotPassword": {
+        "file": "ForgotPassword.tsx",
+        "extends": "ForgotPasswordController",
+        "imports": [
+          {
+            "value": "CountryCodeSelector",
+            "path": "../../country-code-selector/src/CountryCodeSelector"
+          },
+          {
+            "value": "ForgotPasswordController",
+            "path": "./ForgotPasswordController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ForgotPasswordController"
+          }
+        ]
+      },
+      "ForgotPasswordOTP": {
+        "file": "ForgotPasswordOTP.tsx",
+        "extends": "OTPInputAuthController",
+        "imports": [
+          {
+            "value": "OTPInputAuthController",
+            "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+          },
+          {
+            "value": "{Props}",
+            "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+          }
+        ]
+      },
+      "NewPassword": {
+        "file": "NewPassword.tsx",
+        "extends": "ForgotPasswordController",
+        "imports": [
+          {
+            "value": "CountryCodeSelector",
+            "path": "../../country-code-selector/src/CountryCodeSelector"
+          },
+          {
+            "value": "ForgotPasswordController",
+            "path": "./ForgotPasswordController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ForgotPasswordController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ForgotPassword",
+      "ForgotPasswordOTP",
+      "NewPassword"
+    ],
+    "assembler-messages": {
+      "output": {
+        "changePasswordButton": [
+          "ForgotPasswordFaliureMessage",
+          "ForgotPasswordSuccessMessage"
+        ]
+      },
+      "input": {
+        "navigation": [
+          "NavigationForgotPasswordMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "otp-input-confirmation",
+      "country-code-selector"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ForgotPassword": {
+        "file": "ForgotPassword.tsx",
+        "extends": "ForgotPasswordController",
+        "imports": [
+          {
+            "value": "CountryCodeSelector",
+            "path": "../../country-code-selector/src/CountryCodeSelector"
+          },
+          {
+            "value": "ForgotPasswordController",
+            "path": "./ForgotPasswordController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ForgotPasswordController"
+          }
+        ]
+      },
+      "ForgotPasswordOTP": {
+        "file": "ForgotPasswordOTP.tsx",
+        "type": "ForgotPassword",
+        "extends": "OTPInputAuthController",
+        "imports": [
+          {
+            "value": "OTPInputAuthController",
+            "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+          },
+          {
+            "value": "{Props}",
+            "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+          }
+        ]
+      },
+      "NewPassword": {
+        "file": "NewPassword.tsx",
+        "imports": [
+          {
+            "value": "CountryCodeSelector",
+            "path": "../../country-code-selector/src/CountryCodeSelector"
+          },
+          {
+            "value": "ForgotPasswordController",
+            "path": "./ForgotPasswordController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ForgotPasswordController"
+          }
+        ]
+      }
+    }
+  }
+}

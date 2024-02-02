@@ -1,0 +1,100 @@
+{
+  "bds": {
+    "name": "Mobile Account Log In",
+    "id": "mobile-account-login",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "mobile-account-login": {
+          "hotspots": [
+            {
+                "type": "edit",
+                "id": "coutryCodeSelector",
+                "options": [
+                  "mandatory",
+                  "enabled"
+                ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputPhoneNumber",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "txtInputPassword",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnForgotPassword",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "CustomCheckBox",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "input",
+              "id": "btnRememberMe",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnMobileLogIn",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            },
+            {
+              "type": "edit",
+              "id": "btnSocialLogin",
+              "options": [
+                "mandatory",
+                "enabled"
+              ]
+            },
+            {
+              "type": "navigation",
+              "id": "btnEmailLogin",
+              "options": [
+                "target",
+                "navigationTransition",
+                "navigationType",
+                "enabled"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

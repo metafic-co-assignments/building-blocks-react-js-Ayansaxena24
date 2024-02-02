@@ -1,0 +1,65 @@
+{
+  "id": "History5",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/History5",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "History5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "History5": {
+        "file": "History5.tsx",
+        "extends": "History5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "History5Controller",
+            "path": "./History5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./History5Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "History5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "History5": {
+        "file": "History5.web.tsx",
+        "extends": "History5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "History5Controller",
+            "path": "./History5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./History5Controller"
+          }
+        ]
+      }
+    }
+  }
+}

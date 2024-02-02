@@ -1,0 +1,136 @@
+# Default values for app-deploy-fe.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+# For Custom CNAME configuration refer docs first: https://builderai.quip.com/S1SiA9110Eph/Using-Custom-CNAME
+
+replicaCount: 2
+
+# Specify additional values that will be presented as environment variables to the pod.
+appExtConfig:
+  PROJECT_TYPE: "studio_pro" 
+  extval1: "example1"
+  EXTVAL2: "example2"
+  REACT_APP_API_PATH: "https://backend-url-value-not-set.example.com"
+
+extraFiles:
+  - fileName: env.js
+    mountPath: /usr/share/nginx/html/env.js
+
+probes:
+  livenessProbe:
+    path: /
+    initialDelaySeconds: 5
+    periodSeconds: 10
+  readinessProbe:
+    path: /
+    initialDelaySeconds: 10
+    periodSeconds: 20
+
+PodDisruptionBudget:
+  minAvailable: "50%"
+
+image:
+  repository:  gitlab.builder.ai:5000/template-app
+  pullPolicy: IfNotPresent
+  tag: 8.8.8
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name:
+
+containerPort: 80
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  # maxReplicas must not exceed the max node count
+  maxReplicas: 3
+  targetCPU: 70
+  targetMemory: 80 
+  behavior:
+    scaleDown:
+      stabilizationWindowSeconds: 120
+      policies:
+      - type: Percent
+        value: 100
+        periodSeconds: 30
+    scaleUp:
+      stabilizationWindowSeconds: 0
+      policies:
+      - type: Percent
+        value: 100
+        periodSeconds: 30
+
+podSecurityContext: {}
+  # fsGroup: 2000
+
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+service:
+  type: ClusterIP
+  port: 80
+
+annotations:
+  prometheus.io/scrape: 'true'
+  prometheus.io/port: '9113'
+
+ingress:
+  enabled: true
+  rsa_key_length: "2048"
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-staging
+    kubernetes.io/ingress.class: nginx
+    # nginx.ingress.kubernetes.io/server-alias: "<custom_cname>""
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - host: rrapp.local
+      paths: ['/']
+  tls:
+    - secretName: https-cert
+      hosts:
+        - rrapp.local
+        # - <custom_cname>
+
+resources:
+  # Note - these are representative values only and should be determined through
+  # your own testing of your application.
+  limits:
+    cpu: 50m
+    memory: 200Mi
+  requests:
+    cpu: 15m
+    memory: 100Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity:
+  podAntiAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 1
+        podAffinityTerm:
+            labelSelector:
+              matchExpressions:
+                - key: "app.kubernetes.io/name"
+                  operator: In
+                  values:
+                  - app-deploy-fe
+            topologyKey: "kubernetes.io/hostname"

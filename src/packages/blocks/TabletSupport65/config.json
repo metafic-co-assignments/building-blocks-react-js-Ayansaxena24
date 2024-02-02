@@ -1,0 +1,65 @@
+{
+  "id": "TabletSupport65",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/TabletSupport65",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TabletSupport65"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TabletSupport65": {
+        "file": "TabletSupport65.tsx",
+        "extends": "TabletSupport65Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TabletSupport65Controller",
+            "path": "./TabletSupport65Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TabletSupport65Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TabletSupport65"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TabletSupport65": {
+        "file": "TabletSupport65.web.tsx",
+        "extends": "TabletSupport65Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TabletSupport65Controller",
+            "path": "./TabletSupport65Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TabletSupport65Controller"
+          }
+        ]
+      }
+    }
+  }
+}

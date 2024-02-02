@@ -1,0 +1,50 @@
+{
+    //TODO: Replace with Project Name
+    "project": "YLanes1", 
+    "builderTracker": {
+      "url":"https://api.tracker.engineer.ai",
+      //TODO: Replace with Tracker Project's ID
+      "id": "800",
+      //TODO: Replace with Tracker Project's KEY 
+      "token": "DAHpRJmqWVNTbhMBtlED"
+    },
+    "visualQA" : {
+      "url":"http://api.visualqa.builder.ai/json-request-buffer",
+      "sigma": 10,       //DEFAULT: 10
+      "threshold": 250   //DEFAULT: 250
+    },
+    "web": {
+        //TODO: Replace with Project's Comps Repo
+        "designCompsRepo": "",
+        //TODO: Replace with url for Project's Comps
+        "designCompsArchiveURL": "",
+        "width": 1024,    //DEFAULT: 1024
+        "height": 768,    //DEFAULT: 768,
+        "nodePort": 3000, //DEFAULT: 3000
+        //TODO: Replace with Project's REPO
+        "repo": "", 
+        //TODO: Replace with Project's REPO Branch
+        "branch": "dev_ssh",
+        "debugURL": "http://localhost:3000", //DEFAULT: http://localhost:3000
+        //TODO: Replace with Production URL
+        "releaseURL": "",
+        //TODO: Replace with cmds to init Project localy
+        "init": "cd ../../../ && yarn", 
+        //TODO: Replace with cmds to update Project localy
+        "update": "",
+        //TODO: Replace with cmds to run Project localy
+        "start": "cd .. && npm run compile -- -w --incremental | HTTPS=false PORT=3000 npm run _start",
+        //TODO: Replace with Design Asset and Feature Name 
+        "screens": [ 
+            {
+              //TODO: Replace with Design Asset Name
+              "featureName": "HomeScreen", 
+              //TODO: Replace with Screen Path URL Path
+              "path": "",
+              //TODO: Replace with array elements to click
+              "clicks": []
+            }
+        ]
+    }
+  }
+  

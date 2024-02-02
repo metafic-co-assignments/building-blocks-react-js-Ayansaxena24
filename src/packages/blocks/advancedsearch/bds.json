@@ -1,0 +1,21 @@
+{
+  "bds": {
+    "name": "advancedsearch",
+    "id": "advancedsearch",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "advancedsearch": {
+          "hotspots": []
+        }
+      }
+    ]
+  }
+}

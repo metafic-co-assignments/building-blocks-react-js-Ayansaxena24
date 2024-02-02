@@ -1,0 +1,70 @@
+{
+  "id": "visualanalytics",
+  "verion": "1.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/visualanalytics",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "VisualAnalytics"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-chart-kit\": \"^6.11.0\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "VisualAnalytics": {
+        "file": "VisualAnalytics.tsx",
+        "extends": "VisualAnalyticsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "VisualAnalyticsController",
+            "path": "./VisualAnalyticsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./VisualAnalyticsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "VisualAnalytics"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-chart-kit\": \"^6.11.0\"",
+      "\"react-google-charts\": \"2.0.29\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "VisualAnalytics": {
+        "file": "VisualAnalytics.web.tsx",
+        "extends": "VisualAnalyticsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "VisualAnalyticsController",
+            "path": "./VisualAnalyticsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./VisualAnalyticsController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Notifications",
+  "version": "1.0.0",
+  "status": "release",
+  "path": "./packages/blocks/Notifications",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Notifications"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Notifications": {
+        "file": "Notifications.tsx",
+        "extends": "NotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "NotificationsController",
+            "path": "./NotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./NotificationsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Notifications"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "NotificationsBlock": {
+        "file": "Notifications.tsx",
+        "extends": "NotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "NotificationsController",
+            "path": "./NotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./NotificationsController"
+          }
+        ]
+      }
+    }
+  }
+}

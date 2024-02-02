@@ -1,0 +1,109 @@
+{
+  "name": "mobile",
+  "version": "1.1.5",
+  "private": true,
+  "scripts": {
+    "android": "npx react-native run-android",
+    "compile": "tsc -b --incremental",
+    "ios": "npx react-native run-ios",
+    "start": "concurrently \"npm run compile -- -w\" \"npx react-native start\"",
+    "studio": "studio android",
+    "xcode": "open ios/YLanes1.xcworkspace"
+  },  
+  "dependencies": {
+    "@pdftron/react-native-pdf": "file:../blocks/core/node_modules/@pdftron/react-native-pdf",
+    "@react-native-community/async-storage-backend-legacy": "file:../blocks/core/node_modules/@react-native-community/async-storage-backend-legacy",
+    "@react-native-community/datetimepicker": "file:../blocks/core/node_modules/@react-native-community/datetimepicker",
+    "@react-native-firebase/analytics": "file:../blocks/core/node_modules/@react-native-firebase/analytics",
+    "@react-native-firebase/app": "file:../blocks/core/node_modules/@react-native-firebase/app",
+    "@react-native-community/google-signin": "file:../blocks/core/node_modules/@react-native-community/google-signin",
+    "@react-native-community/slider": "file:../blocks/core/node_modules/@react-native-community/slider",
+    "react": "file:../blocks/core/node_modules/react",
+    "react-images-upload": "file:../blocks/core/node_modules/react-images-upload",
+    "react-native": "file:../blocks/core/node_modules/react-native",
+    "react-native-add-calendar-event": "file:../blocks/core/node_modules/react-native-add-calendar-event",
+    "react-native-appearance": "file:../blocks/core/node_modules/react-native-appearance",
+    "react-native-ble-manager": "file:../blocks/core/node_modules/react-native-ble-manager",
+    "react-native-canvas": "file:../blocks/core/node_modules/react-native-canvas",
+    "react-native-compass-heading": "file:../blocks/core/node_modules/react-native-compass-heading",
+    "react-native-document-picker": "file:../blocks/core/node_modules/react-native-document-picker",
+    "react-native-fbsdk": "file:../blocks/core/node_modules/react-native-fbsdk",
+    "react-native-file-viewer": "file:../blocks/core/node_modules/react-native-file-viewer",
+    "react-native-fs": "file:../blocks/core/node_modules/react-native-fs",
+    "react-native-image-marker": "file:../blocks/core/node_modules/react-native-image-marker",
+    "react-native-image-to-pdf": "file:../blocks/core/node_modules/react-native-image-to-pdf",
+    "react-native-localize": "file:../blocks/core/node_modules/react-native-localize",
+    "react-native-modal-activityindicator": "file:../blocks/core/node_modules/react-native-modal-activityindicator",
+    "react-native-modal-datetime-picker": "file:../blocks/core/node_modules/react-native-modal-datetime-picker",
+    "react-native-permissions": "file:../blocks/core/node_modules/react-native-permissions",
+    "react-native-print": "file:../blocks/core/node_modules/react-native-print",
+    "react-native-radar": "file:../blocks/core/node_modules/react-native-radar",
+    "react-native-reanimated": "file:../blocks/core/node_modules/react-native-reanimated",
+    "react-native-share": "file:../blocks/core/node_modules/react-native-share",
+    "react-native-sound": "file:../blocks/core/node_modules/react-native-sound",
+    "react-native-simple-radio-button":"file:../blocks/core/node_modules/react-native-simple-radio-button",
+    "react-native-system-setting": "file:../blocks/core/node_modules/react-native-system-setting",
+    "react-native-tab-view": "file:../blocks/core/node_modules/react-native-tab-view",
+    "react-native-ui-lib": "file:../blocks/core/node_modules/react-native-ui-lib",
+    "react-native-video": "file:../blocks/core/node_modules/react-native-video",
+    "react-native-video-player": "file:../blocks/core/node_modules/react-native-video-player",
+    "react-native-view-shot": "file:../blocks/core/node_modules/react-native-view-shot",
+    "react-native-watermark": "file:../blocks/core/node_modules/react-native-watermark"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "file:../blocks/core/node_modules/@react-native-community/eslint-config",
+    "@react-native-community/eslint-plugin": "file:../blocks/core/node_modules/@react-native-community/eslint-plugin",
+    "@types/enzyme": "file:../blocks/core/node_modules/@types/enzyme",
+    "@types/enzyme-adapter-react-16": "file:../blocks/core/node_modules/@types/enzyme-adapter-react-16",
+    "@types/jest": "file:../blocks/core/node_modules/@types/jest",
+    "@types/react": "file:../blocks/core/node_modules/@types/react",
+    "@types/react-native": "file:../blocks/core/node_modules/@types/react-native",
+    "@types/react-native-calendars": "file:../blocks/core/node_modules/@types/react-native-calendars",
+    "@types/react-native-document-picker": "file:../blocks/core/node_modules/@types/react-native-document-picker",
+    "@types/react-native-simple-radio-button": "file:../blocks/core/node_modules/@types/react-native-simple-radio-button",
+    "@types/react-native-tab-view": "file:../blocks/core/node_modules/@types/react-native-tab-view",
+    "@types/react-native-video-player": "file:../blocks/core/node_modules/@types/react-native-video-player",
+    "@types/react-test-renderer": "file:../blocks/core/node_modules/@types/react-test-renderer",
+    "@typescript-eslint/eslint-plugin": "file:../blocks/core/node_modules/@typescript-eslint/eslint-plugin",
+    "babel-jest": "file:../blocks/core/node_modules/babel-jest",
+    "enzyme": "file:../blocks/core/node_modules/enzyme",
+    "enzyme-adapter-react-16": "file:../blocks/core/node_modules/enzyme-adapter-react-16",
+    "enzyme-to-json": "file:../blocks/core/node_modules/enzyme-to-json",
+    "eslint": "file:../blocks/core/node_modules/eslint",
+    "eslint-config-react-app": "file:../blocks/core/node_modules/eslint-config-react-app",
+    "eslint-plugin-react-native": "file:../blocks/core/node_modules/eslint-plugin-react-native",
+    "eslint-plugin-sonarjs": "file:../blocks/core/node_modules/eslint-plugin-sonarjs",
+    "jest": "file:../blocks/core/node_modules/jest",
+    "jest-enzyme": "file:../blocks/core/node_modules/jest-enzyme",
+    "jest-sonar-reporter": "file:../blocks/core/node_modules/jest-sonar-reporter",
+    "react-test-renderer": "file:../blocks/core/node_modules/react-test-renderer",
+    "ts-jest": "file:../blocks/core/node_modules/ts-jest",
+    "pixels-catcher": "file:../blocks/core/node_modules/pixels-catcher",
+    "react-native-maps": "file:../blocks/core/node_modules/react-native-maps",
+    "react-native-save-view": "file:../blocks/core/node_modules/react-native-save-view"
+  },
+  "jestSonar": {
+    "reportPath": "../../reports",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/../../node_modules/jest-enzyme/lib/index.js"
+    ],
+    "testResultsProcessor": "jest-sonar-reporter",
+    "setupFiles": [
+      "<rootDir>/test-setup.js"
+    ],
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "collectCoverageFrom": [
+      "!../../node_modules/**",
+      "!build/**"
+    ]
+  }
+}

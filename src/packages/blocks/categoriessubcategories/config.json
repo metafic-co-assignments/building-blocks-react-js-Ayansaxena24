@@ -1,0 +1,65 @@
+{
+  "id": "categoriessubcategories",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/categoriessubcategories",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Categoriessubcategories"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Categoriessubcategories": {
+        "file": "Categoriessubcategories.tsx",
+        "extends": "CategoriessubcategoriesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CategoriessubcategoriesController",
+            "path": "./CategoriessubcategoriesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CategoriessubcategoriesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Categoriessubcategories"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CategoriessubcategoriesBlock": {
+        "file": "CategoriessubcategoriesBlock.tsx",
+        "extends": "CategoriessubcategoriesController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CategoriessubcategoriesController",
+            "path": "./CategoriessubcategoriesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CategoriessubcategoriesController"
+          }
+        ]
+      }
+    }
+  }
+}

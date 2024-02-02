@@ -1,0 +1,73 @@
+{
+  "id": "onboardingguide",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/onboardingguide",
+  "assembler-adapters": ["OnboardingAdapter"],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Onboardingguide"
+    ],
+    "assembler-dependencies": [
+        "\"react-native-onboarding-swiper\": \"^1.1.4\""
+    ],
+    "catalog-dependencies": [
+       "core"
+     ],
+    "assembler-devDependencies": [
+      "\"@types/react-native-onboarding-swiper\": \"^1.1.0\""
+    ],
+    "merge-engine-screens": {
+      "Onboardingguide": {
+        "file": "Onboardingguide.tsx",
+        "extends": "OnboardingguideController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OnboardingguideController",
+            "path": "./OnboardingguideController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OnboardingguideController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Onboardingguide"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-onboarding-swiper\": \"^1.1.4\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [
+      "\"@types/react-native-onboarding-swiper\": \"^1.1.0\""
+    ],
+    "merge-engine-screens": {
+      "OnboardingguideBlock": {
+        "file": "OnboardingguideBlock.web.tsx",
+        "extends": "OnboardingguideController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OnboardingguideController",
+            "path": "./OnboardingguideController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OnboardingguideController"
+          }
+        ]
+      }
+    }
+  }
+}

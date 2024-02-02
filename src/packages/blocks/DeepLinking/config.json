@@ -1,0 +1,65 @@
+{
+  "id": "DeepLinking",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DeepLinking",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DeepLinking"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DeepLinking": {
+        "file": "DeepLinking.tsx",
+        "extends": "DeepLinkingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DeepLinkingController",
+            "path": "./DeepLinkingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DeepLinkingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DeepLinking"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DeepLinking": {
+        "file": "DeepLinking.web.tsx",
+        "extends": "DeepLinkingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DeepLinkingController",
+            "path": "./DeepLinkingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DeepLinkingController"
+          }
+        ]
+      }
+    }
+  }
+}

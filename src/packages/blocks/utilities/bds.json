@@ -1,0 +1,14 @@
+{
+  "bds": {
+    "name": "Utilities",
+    "id": "Utilities",
+    "platform": [
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "2.0.0",
+    "mobile": [],
+    "web": []
+  }
+}

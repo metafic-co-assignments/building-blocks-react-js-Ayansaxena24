@@ -1,0 +1,65 @@
+{
+  "id": "GiveHearts",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GiveHearts",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GiveHearts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GiveHearts": {
+        "file": "GiveHearts.tsx",
+        "extends": "GiveHeartsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "GiveHeartsController",
+            "path": "./GiveHeartsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GiveHeartsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GiveHearts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GiveHearts": {
+        "file": "GiveHearts.web.tsx",
+        "extends": "GiveHeartsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "GiveHeartsController",
+            "path": "./GiveHeartsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GiveHeartsController"
+          }
+        ]
+      }
+    }
+  }
+}

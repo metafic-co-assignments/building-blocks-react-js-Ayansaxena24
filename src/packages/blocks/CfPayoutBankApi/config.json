@@ -1,0 +1,65 @@
+{
+  "id": "CfPayoutBankApi",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfPayoutBankApi",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfPayoutBankApi"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfPayoutBankApi": {
+        "file": "CfPayoutBankApi.tsx",
+        "extends": "CfPayoutBankApiController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfPayoutBankApiController",
+            "path": "./CfPayoutBankApiController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfPayoutBankApiController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfPayoutBankApi"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfPayoutBankApi": {
+        "file": "CfPayoutBankApi.web.tsx",
+        "extends": "CfPayoutBankApiController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfPayoutBankApiController",
+            "path": "./CfPayoutBankApiController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfPayoutBankApiController"
+          }
+        ]
+      }
+    }
+  }
+}

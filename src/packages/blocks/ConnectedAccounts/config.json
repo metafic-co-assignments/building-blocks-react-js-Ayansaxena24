@@ -1,0 +1,65 @@
+{
+  "id": "ConnectedAccounts",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ConnectedAccounts",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConnectedAccounts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConnectedAccounts": {
+        "file": "ConnectedAccounts.tsx",
+        "extends": "ConnectedAccountsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ConnectedAccountsController",
+            "path": "./ConnectedAccountsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConnectedAccountsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ConnectedAccounts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ConnectedAccounts": {
+        "file": "ConnectedAccounts.web.tsx",
+        "extends": "ConnectedAccountsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ConnectedAccountsController",
+            "path": "./ConnectedAccountsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConnectedAccountsController"
+          }
+        ]
+      }
+    }
+  }
+}

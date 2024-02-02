@@ -1,0 +1,65 @@
+{
+  "id": "DailyTimeLimit",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DailyTimeLimit",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DailyTimeLimit"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DailyTimeLimit": {
+        "file": "DailyTimeLimit.tsx",
+        "extends": "DailyTimeLimitController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DailyTimeLimitController",
+            "path": "./DailyTimeLimitController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DailyTimeLimitController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DailyTimeLimit"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DailyTimeLimit": {
+        "file": "DailyTimeLimit.web.tsx",
+        "extends": "DailyTimeLimitController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DailyTimeLimitController",
+            "path": "./DailyTimeLimitController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DailyTimeLimitController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+src/.validationwhitelist
+src/.validationignore
+src/docs/**/*
+src/endPointTest.js
+src/packages/blocks/**/src/**/*.{ts,tsx,js}
+src/packages/blocks/**/bds.json
+src/packages/blocks/**/config.json
+src/packages/framework/**/*
+src/packages/components/src/HomeScreen.tsx
+src/validate_code.sh

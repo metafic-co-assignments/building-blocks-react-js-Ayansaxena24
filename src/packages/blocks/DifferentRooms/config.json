@@ -1,0 +1,65 @@
+{
+  "id": "DifferentRooms",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DifferentRooms",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DifferentRooms"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DifferentRooms": {
+        "file": "DifferentRooms.tsx",
+        "extends": "DifferentRoomsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DifferentRoomsController",
+            "path": "./DifferentRoomsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DifferentRoomsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DifferentRooms"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DifferentRooms": {
+        "file": "DifferentRooms.web.tsx",
+        "extends": "DifferentRoomsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DifferentRoomsController",
+            "path": "./DifferentRoomsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DifferentRoomsController"
+          }
+        ]
+      }
+    }
+  }
+}

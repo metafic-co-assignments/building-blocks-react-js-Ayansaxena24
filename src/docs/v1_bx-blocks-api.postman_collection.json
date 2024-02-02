@@ -1,0 +1,523 @@
+{
+	"info": {
+		"_postman_id": "d9212c34-e2e2-42d9-80f0-7425e6ec5056",
+		"name": "bx-blocks-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "account block",
+			"item": [
+				{
+					"name": "Create Account (Email)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8dd13dbe-ac13-4b9b-8684-c1d5ef65b0da",
+								"exec": [
+									"if (pm.response.code > 199 && pm.response.code < 300) {",
+									"  var jsonData = JSON.parse(responseBody);",
+									"  postman.setEnvironmentVariable(\"token\", jsonData.meta.token);",
+									"  postman.setEnvironmentVariable(\"email\", jsonData.data.attributes.email);",
+									"  console.log('account created!')",
+									"} else {",
+									"  console.warn('account creation failed', 'status code: ', pm.response.code)",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"type\": \"email_account\",\n\t\t\"attributes\": {\n\t\t\t\"first_name\": \"Firstname\",\n\t\t\t\"last_name\": \"Lastname\",\n\t\t\t\"full_phone_number\": \"+1 310 854 0001\",\n\t\t\t\"email\": \"test@acme.com\",\n\t\t\t\"password\": \"{{password}}\"\n\t\t}\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/account/accounts",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"account",
+								"accounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Activate Account (Email)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/account/accounts/email_confirmation",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"account",
+								"accounts",
+								"email_confirmation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Country Code and Flag List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/account/accounts/country_code_and_flag",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"account",
+								"accounts",
+								"country_code_and_flag"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "login block",
+			"item": [
+				{
+					"name": "Log In (request jwt)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8dd13dbe-ac13-4b9b-8684-c1d5ef65b0da",
+								"exec": [
+									"if (pm.response.code > 199 && pm.response.code < 300) {",
+									"  var jsonData = JSON.parse(responseBody);",
+									"  postman.setEnvironmentVariable(\"token\", jsonData.meta.token);",
+									"  console.log('login success!')",
+									"} else {",
+									"  console.warn('login failed', 'status code: ', pm.response.code)",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"type\": \"email_account\",\n\t\t\"attributes\": {\n\t\t\t\"email\": \"{{email}}\",\n\t\t\t\"password\": \"{{password}}\"\n\t\t}\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/login/login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "profile block",
+			"item": [
+				{
+					"name": "Change Phone Validation",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8dd13dbe-ac13-4b9b-8684-c1d5ef65b0da",
+								"exec": [
+									"if (pm.response.code > 199 && pm.response.code < 300) {",
+									"  console.log('phone validation success!')",
+									"} else {",
+									"  console.warn('phone validation failed', 'status code: ', pm.response.code)",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"new_phone_number\": \"+1 310 854 0003\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/profile/change_phone_validation",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"profile",
+								"change_phone_validation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Account/Profile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8dd13dbe-ac13-4b9b-8684-c1d5ef65b0da",
+								"exec": [
+									"if (pm.response.code > 199 && pm.response.code < 300) {",
+									"  console.log('account updated!')",
+									"} else {",
+									"  console.warn('account update failed', 'status code: ', pm.response.code)",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"first_name\": \"Firstname-updated\",\n\t\t\"last_name\": \"Lastname-updated\",\n\t\t\"new_phone_number\": \"+1 310 854 0002\",\n\t\t\"current_password\": \"{{password}}\",\n\t\t\"new_password\": \"{{newPassword}}\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/profile/profile",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"profile",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Password",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "2c6cc3e4-ba14-44f9-a1ae-fc50bcc2abcf",
+								"exec": [
+									"if (pm.response.code > 199 && pm.response.code < 300) {",
+									"  var jsonData = JSON.parse(responseBody);",
+									"  postman.setEnvironmentVariable(\"password\", postman.getEnvironmentVariable('newPassword'));",
+									"  console.log('password changed!')",
+									"} else {",
+									"  console.warn('password change failed', 'status code: ', pm.response.code)",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"type": "text",
+								"value": "{{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"current_password\": \"{{password}}\",\n\t\t\"new_password\": \"{{newPassword}}\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/profile/password",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"profile",
+								"password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Account/Profile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7732d37a-4f0c-4d06-b9bf-e68b0466708a",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/profile/profile",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"profile",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profile Validation Rules",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/profile/validations",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"profile",
+								"validations"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "forgot password",
+			"item": [
+				{
+					"name": "Request OTP",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8dd13dbe-ac13-4b9b-8684-c1d5ef65b0da",
+								"exec": [
+									"if (pm.response.code > 199 && pm.response.code < 300) {",
+									"  var jsonData = JSON.parse(responseBody);",
+									"  postman.setEnvironmentVariable(\"otpToken\", jsonData.meta.token);",
+									"  console.log('otp request success!')",
+									"} else {",
+									"  console.warn('otp request failed', 'status code: ', pm.response.code)",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"attributes\": {\n\t\t\t\"email\": \"{{email}}\"\n\t\t}\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/forgot_password/otp",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"forgot_password",
+								"otp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OTP Confirmation",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8dd13dbe-ac13-4b9b-8684-c1d5ef65b0da",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"token\": \"{{otpToken}}}\",\n\t\t\"otp_code\": 8644\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/forgot_password/otp_confirmation",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"forgot_password",
+								"otp_confirmation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Password",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8dd13dbe-ac13-4b9b-8684-c1d5ef65b0da",
+								"exec": [
+									"if (pm.response.code > 199 && pm.response.code < 300) {",
+									"  var jsonData = JSON.parse(responseBody);",
+									"  postman.setEnvironmentVariable(\"password\", postman.getEnvironmentVariable('newPassword'));",
+									"  console.log('password changed!')",
+									"} else {",
+									"  console.warn('password change failed', 'status code: ', pm.response.code)",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\": {\n\t\t\"token\": \"{{otpToken}}\",\n\t\t\"new_password\": \"{{newPassword}}\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/forgot_password/password",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"forgot_password",
+								"password"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "db3b7e9a-6407-40e9-b5d0-bd3b20ce66a7",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "154dfb82-9e22-4aa1-b929-7ef2b7255f09",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

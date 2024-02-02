@@ -1,0 +1,86 @@
+{
+  "id": "user-profile-basic",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/user-profile-basic",
+  "assembler-adapters": [],
+  "assembler-ignorelist": [
+    "__tests__",
+    "assets",
+    "yarn.lock",
+    "package.json",
+    "src/assets.tsx"
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UserProfileBasicBlock"
+    ],
+    "assembler-messages": {
+      "output": {},
+      "input": {
+        "navigation": [
+          "NavigationBasicUserProfileMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "country-code-selector"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UserProfileBasicBlock": {
+        "file": "UserProfileBasicBlock.tsx",
+        "extends": "UserProfileBasicController",
+        "imports": [
+          {
+            "value": "UserProfileBasicController",
+            "path": "./UserProfileBasicController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UserProfileBasicController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "UserProfileBasicBlock"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "country-code-selector"
+    ],
+    "assembler-messages": {
+      "output": {},
+      "input": {
+        "navigation": [
+          "NavigationBasicUserProfileMessage"
+        ]
+      }
+    },
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "UserProfileBasicBlock": {
+        "file": "UserProfileBasicBlock.tsx",
+        "extends": "UserProfileBasicController",
+        "imports": [
+          {
+            "value": "UserProfileBasicController",
+            "path": "./UserProfileBasicController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./UserProfileBasicController"
+          }
+        ]
+      }
+    }
+  }
+}

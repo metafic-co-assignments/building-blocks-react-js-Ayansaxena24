@@ -1,0 +1,65 @@
+{
+  "id": "Analytics",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Analytics",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Analytics"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Analytics": {
+        "file": "Analytics.tsx",
+        "extends": "AnalyticsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AnalyticsController",
+            "path": "./AnalyticsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AnalyticsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Analytics"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Analytics": {
+        "file": "Analytics.tsx",
+        "extends": "AnalyticsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AnalyticsController",
+            "path": "./AnalyticsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AnalyticsController"
+          }
+        ]
+      }
+    }
+  }
+}

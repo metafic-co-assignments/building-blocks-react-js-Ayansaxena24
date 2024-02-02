@@ -1,0 +1,65 @@
+{
+  "id": "DuplicateRooms2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DuplicateRooms2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DuplicateRooms2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DuplicateRooms2": {
+        "file": "DuplicateRooms2.tsx",
+        "extends": "DuplicateRooms2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DuplicateRooms2Controller",
+            "path": "./DuplicateRooms2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DuplicateRooms2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DuplicateRooms2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DuplicateRooms2": {
+        "file": "DuplicateRooms2.web.tsx",
+        "extends": "DuplicateRooms2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DuplicateRooms2Controller",
+            "path": "./DuplicateRooms2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DuplicateRooms2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

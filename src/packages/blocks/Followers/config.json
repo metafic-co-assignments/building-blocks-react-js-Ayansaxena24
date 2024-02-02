@@ -1,0 +1,65 @@
+{
+  "id": "Followers",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Followers",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Followers"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Followers": {
+        "file": "Followers.tsx",
+        "extends": "FollowersController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "FollowersController",
+            "path": "./FollowersController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FollowersController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Followers"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Followers": {
+        "file": "Followers.web.tsx",
+        "extends": "FollowersController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "FollowersController",
+            "path": "./FollowersController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FollowersController"
+          }
+        ]
+      }
+    }
+  }
+}

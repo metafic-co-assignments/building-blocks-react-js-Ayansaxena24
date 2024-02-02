@@ -1,0 +1,5264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile Phone Account Log In Empty Mobile Phone Number 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In Mobile Phone Number and Empty Password 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In Mobile Phone Number, Password and have not selected a Country Code 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In Mobile Phone Number, Password and have selected a Country Code 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In Password and Empty Mobile Phone Number 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In Remember Me - Mobile Phone Account Log In 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In Remember Me - Mobile Phone Account Log In 2`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="+266"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="266"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value="3105551212"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value="passWord1!"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 1`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 2`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 3`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value=""
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 4`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_visible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 5`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={false}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 6`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 7`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 8`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 9`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 10`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value="3105551111"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 11`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value="3105551111"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value="passWord1!"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`Mobile Phone Account Log In User navigates to Mobile Log In 12`] = `
+<ScrollViewMock
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+    testID="Background"
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontSize": 32,
+            "marginBottom": 32,
+            "marginTop": 24,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        Log in
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "marginBottom": 32,
+            "marginVertical": 8,
+            "textAlign": "left",
+          }
+        }
+      >
+        The reason we require login
+      </Text>
+      <View
+        style={Object {}}
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginRight": 0,
+            }
+          }
+        >
+          <CountryCodeSelector
+            allowPropChange={false}
+            disable={false}
+            id="CountryCodeSelector"
+            navigation={null}
+            placeHolder="Select Country"
+            style={
+              Object {
+                "borderColor": "#767676",
+                "borderRadius": 2,
+                "borderWidth": 1,
+                "flex": 1,
+                "marginBottom": 10,
+                "padding": 16,
+                "zIndex": 999,
+              }
+            }
+            value="3833"
+          />
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCompleteType="tel"
+          keyboardType="phone-pad"
+          onChangeText={[Function]}
+          placeholder="Mobile"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "borderBottomWidth": 1,
+              "borderColor": "#767676",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "marginBottom": 16,
+              "padding": 10,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPhoneNumber"
+          underlineColorAndroid="transparent"
+          value="3105551111"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderBottomWidth": 1,
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "zIndex": -1,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Password"
+          rejectResponderTermination={true}
+          secureTextEntry={false}
+          style={
+            Object {
+              "backgroundColor": "#00000000",
+              "flex": 1,
+              "fontSize": 16,
+              "includeFontPadding": true,
+              "minHeight": 40,
+              "textAlign": "left",
+            }
+          }
+          testID="txtInputPassword"
+          underlineColorAndroid="transparent"
+          value="passWord1!"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          testID="btnPasswordShowHide"
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../packages/blocks/mobile-account-login/assets/ic_password_invisible.png",
+              }
+            }
+            style={Object {}}
+          />
+        </TouchableOpacity>
+      </View>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#6200EE",
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "zIndex": -1,
+          }
+        }
+        testID="btnForgotPassword"
+      >
+        Forgot password ?
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 10,
+            "marginLeft": -7,
+            "zIndex": -1,
+          }
+        }
+      >
+        <CustomCheckBox
+          isChecked={true}
+          onChangeValue={[Function]}
+          testID="CustomCheckBox"
+        />
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "color": "#6200EE",
+              "fontWeight": "bold",
+              "zIndex": -1,
+            }
+          }
+          testID="btnRememberMe"
+        >
+          Remember me
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "zIndex": -1,
+          }
+        }
+      >
+        <Button
+          color="#6200EE"
+          onPress={[Function]}
+          testID="btnMobileLogIn"
+          title="LOG IN"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#00000000",
+            "fontWeight": "bold",
+            "margin": 20,
+          }
+        }
+      />
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnSocialLogin"
+      >
+        LOGIN WITH SOCIAL MEDIA
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00000000",
+            "borderColor": "#767676",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "color": "#6200EE",
+            "flexDirection": "row",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "includeFontPadding": true,
+            "marginBottom": 16,
+            "padding": 10,
+            "textAlign": "center",
+          }
+        }
+        testID="btnEmailLogin"
+      >
+        LOGIN WITH EMAIL
+      </Text>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;

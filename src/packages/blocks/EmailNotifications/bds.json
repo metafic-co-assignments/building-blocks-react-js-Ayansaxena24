@@ -1,0 +1,14 @@
+{
+  "id": "EmailNotifications",
+  "label": "EmailNotifications",
+  "author": "CMT",
+  "license": "BSD",
+  "summary": "",
+  "version": "2.0.0",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "mobile": [],
+  "web": []
+}

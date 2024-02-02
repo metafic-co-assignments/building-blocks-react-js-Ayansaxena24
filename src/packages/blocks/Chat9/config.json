@@ -1,0 +1,65 @@
+{
+  "id": "Chat9",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Chat9",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Chat9"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Chat9": {
+        "file": "Chat9.tsx",
+        "extends": "Chat9Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Chat9Controller",
+            "path": "./Chat9Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Chat9Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Chat9"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Chat9": {
+        "file": "Chat9.web.tsx",
+        "extends": "Chat9Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Chat9Controller",
+            "path": "./Chat9Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Chat9Controller"
+          }
+        ]
+      }
+    }
+  }
+}

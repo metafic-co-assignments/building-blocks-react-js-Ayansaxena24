@@ -1,0 +1,65 @@
+{
+  "id": "3rdPartyAudioAndVideoIntergration",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/3rdPartyAudioAndVideoIntergration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "3rdPartyAudioAndVideoIntergration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "3rdPartyAudioAndVideoIntergration": {
+        "file": "3rdPartyAudioAndVideoIntergration.tsx",
+        "extends": "3rdPartyAudioAndVideoIntergrationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "3rdPartyAudioAndVideoIntergrationController",
+            "path": "./3rdPartyAudioAndVideoIntergrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./3rdPartyAudioAndVideoIntergrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "3rdPartyAudioAndVideoIntergration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "3rdPartyAudioAndVideoIntergration": {
+        "file": "3rdPartyAudioAndVideoIntergration.web.tsx",
+        "extends": "3rdPartyAudioAndVideoIntergrationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "3rdPartyAudioAndVideoIntergrationController",
+            "path": "./3rdPartyAudioAndVideoIntergrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./3rdPartyAudioAndVideoIntergrationController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "PunishmentAlerts",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PunishmentAlerts",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PunishmentAlerts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PunishmentAlerts": {
+        "file": "PunishmentAlerts.tsx",
+        "extends": "PunishmentAlertsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "PunishmentAlertsController",
+            "path": "./PunishmentAlertsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PunishmentAlertsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PunishmentAlerts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PunishmentAlerts": {
+        "file": "PunishmentAlerts.web.tsx",
+        "extends": "PunishmentAlertsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "PunishmentAlertsController",
+            "path": "./PunishmentAlertsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PunishmentAlertsController"
+          }
+        ]
+      }
+    }
+  }
+}

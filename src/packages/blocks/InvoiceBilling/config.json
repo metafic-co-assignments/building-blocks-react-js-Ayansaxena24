@@ -1,0 +1,65 @@
+{
+  "id": "InvoiceBilling",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InvoiceBilling",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvoiceBilling"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvoiceBilling": {
+        "file": "InvoiceBilling.tsx",
+        "extends": "InvoiceBillingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "InvoiceBillingController",
+            "path": "./InvoiceBillingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvoiceBillingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InvoiceBilling"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InvoiceBilling": {
+        "file": "InvoiceBilling.web.tsx",
+        "extends": "InvoiceBillingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "InvoiceBillingController",
+            "path": "./InvoiceBillingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InvoiceBillingController"
+          }
+        ]
+      }
+    }
+  }
+}

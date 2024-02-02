@@ -1,0 +1,190 @@
+    {
+      "id": "mobile-account-registration",
+      "verion": "1.0.1",
+      "status": "",
+      "path": "./packages/blocks/mobile-account-registration",
+      "assembler-adapters": [
+        "MobilePhoneLogInAdapter",
+        "MobilePhoneToAdditionalDetailsAdapter"
+      ],
+      "mobile": {
+        "merge-engine-navigation": [
+          {
+            "PhoneNumberInput": "OTPInputAuth"
+          },
+          {
+            "OTPInputAuth": "AdditionalDetailForm"
+          },
+          {
+            "AdditionalDetailForm": "PhoneNumberInput"
+          }
+        ],
+        "assembler-exports": [
+          "PhoneNumberInput",
+          "AdditionalDetailForm"
+        ],
+        "assembler-messages": {
+          "output": {
+            "btnSignUp": [
+              "AccoutResgistrationSuccess"
+            ],
+            "btnLegalPrivacyPolicy": [
+              "NavigationPrivacyPolicyMessage"
+            ],
+            "btnLegalTermsAndCondition": [
+              "NavigationTermAndConditionMessage"
+            ]
+          },
+          "input": {
+            "navigation": [
+              "NavigationMobilePhoneAccountRegistration"
+            ]
+          }
+        },
+        "assembler-dependencies": [],
+        "catalog-dependencies": [
+          "core",
+          "country-code-selector",
+          "otp-input-confirmation"
+        ],
+        "assembler-devDependencies": [],
+        "merge-engine-screens": {
+          "PhoneNumberInput": {
+            "file": "PhoneNumberInput.tsx",
+            "extends": "PhoneNumberInputController",
+            "imports": [
+              {
+                "value": "CountryCodeSelector",
+                "path": "../../../country-code-selector/src/CountryCodeSelector"
+              },
+              {
+                "value": "PhoneNumberInputController",
+                "path": "./PhoneNumberInputController"
+              },
+              {
+                "value": "{Props}",
+                "path": "./PhoneNumberInputController"
+              }
+            ]
+          },
+          "OTPInputAuth": {
+            "file": "OTPInputAuth.tsx",
+            "extends": "OTPInputAuthController",
+            "imports": [
+              {
+                "value": "OTPInputAuthController",
+                "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+              },
+              {
+                "value": "{Props}",
+                "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+              }
+            ]
+          },
+          "AdditionalDetailForm": {
+            "file": "AdditionalDetailForm.tsx",
+            "extends": "AdditionalDetailFormController",
+            "imports": [
+              {
+                "value": "AdditionalDetailFormController",
+                "path": "./AdditionalDetailFormController"
+              },
+              {
+                "value": "{Props}",
+                "path": "./AdditionalDetailFormController"
+              }
+            ]
+          }
+        }
+      },
+      "web": {
+        "merge-engine-navigation": [
+          {
+            "PhoneNumberInput": "OTPInputAuth"
+          },
+          {
+            "OTPInputAuth": "AdditionalDetailForm"
+          },
+          {
+            "AdditionalDetailForm": "PhoneNumberInput"
+          }
+        ],
+        "assembler-exports": [
+          "PhoneNumberInput",
+          "AdditionalDetailForm"
+        ],
+        "assembler-messages": {
+          "output": {
+            "btnSignUp": [
+              "AccoutResgistrationSuccess"
+            ],
+            "btnLegalPrivacyPolicy": [
+              "NavigationPrivacyPolicyMessage"
+            ],
+            "btnLegalTermsAndCondition": [
+              "NavigationTermAndConditionMessage"
+            ]
+          }
+        },
+        "input": {
+          "navigation": [
+            "NavigationMobilePhoneAccountRegistration"
+          ]
+        },
+        "assembler-dependencies": [],
+        "catalog-dependencies": [
+          "core",
+          "country-code-selector",
+          "otp-input-confirmation"
+        ],
+        "assembler-devDependencies": [],
+        "merge-engine-screens": {
+          "PhoneNumberInput": {
+            "file": "PhoneNumberInput.tsx",
+            "extends": "PhoneNumberInputController",
+            "imports": [
+              {
+                "value": "CountryCodeSelector",
+                "path": "../../../country-code-selector/src/CountryCodeSelector"
+              },
+              {
+                "value": "PhoneNumberInputController",
+                "path": "./PhoneNumberInputController"
+              },
+              {
+                "value": "{Props}",
+                "path": "./PhoneNumberInputController"
+              }
+            ]
+          },
+          "OTPInputAuth": {
+            "file": "OTPInputAuth.tsx",
+            "extends": "OTPInputAuthController",
+            "imports": [
+              {
+                "value": "OTPInputAuthController",
+                "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+              },
+              {
+                "value": "{Props}",
+                "path": "../../otp-input-confirmation/src/OTPInputAuthController"
+              }
+            ]
+          },
+          "AdditionalDetailForm": {
+            "file": "AdditionalDetailForm.tsx",
+            "extends": "AdditionalDetailFormController",
+            "imports": [
+              {
+                "value": "AdditionalDetailFormController",
+                "path": "./AdditionalDetailFormController"
+              },
+              {
+                "value": "{Props}",
+                "path": "./AdditionalDetailFormController"
+              }
+            ]
+          }
+        }
+      }
+    }   

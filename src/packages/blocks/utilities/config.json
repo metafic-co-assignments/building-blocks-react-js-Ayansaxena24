@@ -1,0 +1,27 @@
+{
+  "id": "utilities",
+  "verion": "1.0.1",
+  "status": "",
+  "path": "./packages/blocks/utilities",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"invert-color\": \"2.0.0\""
+    ],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"invert-color\": \"2.0.0\""
+    ],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

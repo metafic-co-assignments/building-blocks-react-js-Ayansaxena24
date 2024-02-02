@@ -1,0 +1,72 @@
+{
+  "id": "country-code-selector",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/country-code-selector",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CountryCodeSelector",
+      "CountryCodeSelectorTable"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+        "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CountryCodeSelector": {
+        "file": "CountryCodeSelector.tsx",
+        "extends": "BlockComponent<Props, S, SS>",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": []
+      },
+      "CountryCodeSelectorTable": {
+        "file": "CountryCodeSelectorTable.tsx",
+        "extends": "BlockComponent<Props, S, SS>",
+        "configURL": "/account/accounts/country_code_and_flag",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "{ListItem}",
+            "path": "react-native-elements"
+          },
+          {
+            "value": "{SearchBar}",
+            "path": "react-native-elements"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CountryCodeSelector"
+    ],
+    "assembler-dependencies": [
+      "\"react-select\": \"^3.0.8\""
+    ],
+    "catalog-dependencies": [
+        "core"
+    ],
+    "assembler-devDependencies": [
+      "\"@types/react-select\": \"^3.0.10\""
+    ],
+    "merge-engine-screens": {
+      "CountryCodeSelector": {
+        "file": "CountryCodeSelector.web.tsx",
+        "extends": "BlockComponent<Props, S, SS>",
+        "configURL": "/account/accounts/country_code_and_flag",
+        "imports": [
+          {
+            "value": "Select",
+            "path": "react-select"
+          }
+        ]
+      }
+    }
+  }
+}

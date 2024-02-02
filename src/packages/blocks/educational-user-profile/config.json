@@ -1,0 +1,59 @@
+{
+  "id": "educational-user-profile",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/educational-user-profile",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EducationalUserProfile"
+    ],
+    "assembler-messages": {
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EducationalUserProfile": {
+        "file": "EducationalUserProfile.tsx",
+        "extends": "EducationalUserProfileController",
+        "ui-elements": [],
+        "imports": []
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EducationalUserProfile"
+    ],
+    "assembler-messages": {
+    },
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EducationalUserProfile": {
+        "file": "EducationalUserProfile.web.tsx",
+        "extends": "EducationalUserProfileController",
+        "imports": [
+          {
+            "value": "EducationalUserProfileController",
+            "path": "./EducationalUserProfileController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EducationalUserProfileController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "CfTabletSupport7",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfTabletSupport7",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfTabletSupport7"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfTabletSupport7": {
+        "file": "CfTabletSupport7.tsx",
+        "extends": "CfTabletSupport7Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfTabletSupport7Controller",
+            "path": "./CfTabletSupport7Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfTabletSupport7Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfTabletSupport7"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfTabletSupport7": {
+        "file": "CfTabletSupport7.web.tsx",
+        "extends": "CfTabletSupport7Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfTabletSupport7Controller",
+            "path": "./CfTabletSupport7Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfTabletSupport7Controller"
+          }
+        ]
+      }
+    }
+  }
+}

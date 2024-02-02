@@ -1,0 +1,65 @@
+{
+  "id": "RolesPermissions2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/RolesPermissions2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "RolesPermissions2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "RolesPermissions2": {
+        "file": "RolesPermissions2.tsx",
+        "extends": "RolesPermissions2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "RolesPermissions2Controller",
+            "path": "./RolesPermissions2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./RolesPermissions2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "RolesPermissions2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "RolesPermissions2": {
+        "file": "RolesPermissions2.web.tsx",
+        "extends": "RolesPermissions2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "RolesPermissions2Controller",
+            "path": "./RolesPermissions2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./RolesPermissions2Controller"
+          }
+        ]
+      }
+    }
+  }
+}
